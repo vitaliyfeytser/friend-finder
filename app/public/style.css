@@ -1,0 +1,121 @@
+body {
+  margin-bottom: 100px;
+  /* background: url("./images/friends.png") center no-repeat; */
+}
+main {
+    color: #3E3E3F;
+    margin-top: 30px;
+}
+
+p {
+    font-size: .8em;
+}
+
+.main-text {
+    font-size: .8em;
+}
+
+.container {
+    font-size: .9em;
+}
+
+.navbar-brand,
+.navbar-nav,
+.card-title,
+.author {
+    font-family: 'Economica', sans-serif;
+}
+
+.main-heading {
+    font-size: 4em;
+    font-family: 'Teko', sans-serif;
+    margin: 0;
+}
+
+
+#timeLeft, #questionNumber, #message{
+    color: darkslateblue;
+    font-size: 2em;
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+}
+
+.userChoice, .question {
+    color: darkslategrey;
+    font-size: 2.5em;
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    line-height: 1em;
+}
+
+#rightAnswer {
+    color: green;
+    font-size: 2.5em;
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    line-height: 1em;
+}
+
+#wrongAnswer {
+    color: red;
+    font-size: 2.5em;
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    line-height: 1em;
+}
+
+#rightAnswers, #wrongAnswers, #noAnswer{
+    color: red;
+    font-size: 2em;
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+}
+
+#finalMessage, #restart{
+    color: darkslategrey;
+    font-size: 4em;
+    font-weight: bolder;
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+}
+
+/* Bootstarp has no native sticky footer coding (aside from using their "navbar-fixed-bottom" class, which could be confusing.  Using my own code here */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #666666;
+    color: #ffffff;
+    font-size: 0.8rem;
+    text-align: center;
+    font-family: 'Economica', sans-serif;
+    z-index: 1060;
+}
+
+/* To set transparency and hover effect for the cards solid background */
+.author {background-color: rgba(108, 117, 125, 0.9);}
+.author:hover {background-color: #6C757D;}
+.card-title {background-color: rgba(52, 58, 64, 0.9);}
+.card-title:hover {background-color: #343A40;}
+
+.jumbotron {
+    background-color: transparent;
+  }
+  
+  .panel {
+      background-color: rgba(245, 245, 245, 0.8);
+  }
+  
+  #imagepreview {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+  .caption {
+    font-size: 24px;
+    font-style: italic;
+    font-variant: small-caps;
+  }
